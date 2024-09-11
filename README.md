@@ -7,10 +7,6 @@ You can run the program by pasting the code from [explodingDice.c](explodingDice
 
 The program rolls various dice (`d4`, `d6`, `d8`, `d10`, `d12`, `d20`) multiple times, tracking total rolls, explosions (re-rolls), and calculating average improvements over the standard die average.
 
-## Key Concept: Average Improvement
-
-The average improvement from explosions approximates \( \frac{1}{\text{dieSize} - 1} \), since rolling the highest value on a die (an explosion) adds another average roll.
-
 ## Results
 
 The following are the results of a single run. There is some variation from run to run, but not much.
