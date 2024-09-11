@@ -1,7 +1,7 @@
 # Exploding Dice
 
 A simple C program to test the average results of Kids with Bikes' "Exploding Dice" mechanic.  
-You should be able to run it by copy-pasting the code from the [`explodingDice.c`](explodingDice.c) file in any online compiler.
+You should be able to run it by copy-pasting the code from the [explodingDice.c](explodingDice.c) file in any online compiler.
 
 ## Results
 
