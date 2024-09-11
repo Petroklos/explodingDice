@@ -1,7 +1,15 @@
 # Exploding Dice
 
-A simple C program to test the average results of Kids with Bikes' "Exploding Dice" mechanic.  
-You should be able to run it by copy-pasting the code from the [explodingDice.c](explodingDice.c) file in any online compiler.
+This C program simulates the "Exploding Dice" mechanic from Kids with Bikes, where rolling the highest value on a die allows an additional roll.  
+You can run the program by pasting the code from [explodingDice.c](explodingDice.c) into any online compiler.
+
+## How It Works
+
+The program rolls various dice (`d4`, `d6`, `d8`, `d10`, `d12`, `d20`) multiple times, tracking total rolls, explosions (re-rolls), and calculating average improvements over the standard die average.
+
+## Key Concept: Average Improvement
+
+The average improvement from explosions approximates \( \frac{1}{\text{dieSize} - 1} \), since rolling the highest value on a die (an explosion) adds another average roll.
 
 ## Results
 
@@ -48,3 +56,7 @@ Rolling d20s:
 	Die Average = 10.5
 	Average Improvement = 0.6 (5%)
 ```
+
+## Conclusion
+
+Explosions have a noticeable impact on average roll values for smaller dice, while the effect diminishes for larger dice as explosions become less frequent, aligning closely with the formula $`\frac{1}{dieSize-1}`$.
