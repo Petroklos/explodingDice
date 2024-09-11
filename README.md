@@ -13,6 +13,8 @@ The average improvement from explosions approximates \( \frac{1}{\text{dieSize} 
 
 ## Results
 
+The following are the results of a single run. There is some variation from run to run, but not much.
+
 ```
 Rolling d4s:
 	Total Roll = 231405
