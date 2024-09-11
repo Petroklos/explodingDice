@@ -58,4 +58,4 @@ Rolling d20s:
 	Die Average = 10.5
 	Average Improvement = 0.6 (5%)
 ```
-Explosions impact on the average rolls values is roughly equal to $`\frac{1}{dieSize-1}`$.
+Explosions impact on the average rolls values is roughly equal to $`\frac{1}{dieSize-1}`$
