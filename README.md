@@ -58,7 +58,4 @@ Rolling d20s:
 	Die Average = 10.5
 	Average Improvement = 0.6 (5%)
 ```
-
-## Conclusion
-
-Explosions have a noticeable impact on average roll values for smaller dice, while the effect diminishes for larger dice as explosions become less frequent, aligning closely with the formula $`\frac{1}{dieSize-1}`$.
+Explosions impact on the average rolls values is roughly equal to $`\frac{1}{dieSize-1}`$.
