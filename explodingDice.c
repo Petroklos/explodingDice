@@ -49,12 +49,12 @@ void handleDie (int dieSize) {
     float numericalIncrease = averageRoll - dieAverage;
     int percentileIncrase = (int) (((averageRoll/dieAverage) -1) * 100);
     
-    printf("Total Roll = %d\n", totalRoll);
-    printf("Exploded %d times\n", explosions);
-    printf("Roll Average = %.1f\n", averageRoll);
-    printf("Die Average = %.1f\n", dieAverage);
-    printf("Average Improvement = %.1f (%d%%)\n", numericalIncrease, percentileIncrase);
-    printf("\n");
+    printf("Rolling d%ds:\n", dieSize);
+    printf("\tTotal Roll = %d\n", totalRoll);
+    printf("\tExploded %d times\n", explosions);
+    printf("\tRoll Average = %.1f\n", averageRoll);
+    printf("\tDie Average = %.1f\n", dieAverage);
+    printf("\tAverage Improvement = %.1f (%d%%)\n", numericalIncrease, percentileIncrase);
 }
 
 int main() {
