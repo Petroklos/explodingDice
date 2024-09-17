@@ -1,6 +1,6 @@
 # Exploding Dice
 
-This C program simulates the "Exploding Dice" mechanic from Kids with Bikes, where rolling the highest value on a die allows an additional roll.  
+This C program simulates the "Exploding Dice" mechanic from the Kids with Bikes TTRPG, where rolling the highest value on a die allows an additional roll.  
 You can run the program by pasting the code from [explodingDice.c](explodingDice.c) into any online compiler.
 
 ## How It Works
